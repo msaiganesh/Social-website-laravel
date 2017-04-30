@@ -154,7 +154,7 @@ if(!Auth::user()->resumes()->count())
 	]);
 		
 	}
-return redirect()->route('resume.edit')->withInfo('your resume has been updated');
+return redirect()->route('home')->withInfo('your resume has been updated');
 
 
 	
